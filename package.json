@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "chanz19": "node server.js",
+    "chan": "node server.js",
     "dev": "nodemon server.js"
   },
   "repository": {
@@ -15,10 +15,11 @@
   "author": "cb",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Chanz19/Project-3/issues"
+    "url": "https://github.com/Chan/Project-3/issues"
   },
-  "homepage": "https://github.com/Chanz19/Project-3#readme",
-  "dependencies": {
+  "homepage": "https://github.com/Chanz19/Project-3/blob/main/README.md",
+    "dependencies": {
+    "express": "^4.19.2",
     "nodemon": "^3.1.4"
   }
 }

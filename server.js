@@ -1,17 +1,7 @@
-const http = require("http");
+const express = require("express")
 
-const port = 8080;
+const app = express();
 
-http
-.createServer((req, res)=>{
-    res.writeHead(200, {"Context-Type": "text/html"})
-    res.write("<h1>hello this is my first server </h1>")
-    res.end();
-})
+app.use(express.json())
 
-.listen(port, ()=>{
-    console.log(`NodeJs Server is Up and running on port ${port}`)
-})
-
-// http status code
-// https://localhost:8080
+const port = 3081;
